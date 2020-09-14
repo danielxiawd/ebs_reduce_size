@@ -1,6 +1,5 @@
 """
 #Author: Xia Weidong
-#Time: 2019-10-20
 #Function: This script is used for helping auto shrink EBS volume.
 """
 import boto3
