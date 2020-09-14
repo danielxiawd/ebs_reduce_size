@@ -121,7 +121,7 @@ def my_update_resize():
 
     # Delete the tmp file
     print("Remove the tmp file.")
-    terminal_function('sudo rm -rf ebs_resize_data_tmp' + '', ec2_ip)
+    terminal_function('sudo rm -rf /ebs_resize_data_tmp' + '', ec2_ip)
 
     # backup fstab before editing
     result = terminal_function('sudo chmod 777 /etc/fstab', ec2_ip)
